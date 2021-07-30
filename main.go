@@ -28,7 +28,7 @@ func main() {
 	assetHandler := http.FileServer(http.FS(assetFS))
 	redirector := createRedirector(assetFS, log)
 
-	mux.Handle("/v1/applications", handler)
+	mux.Handle("/v1/", handler)
 	mux.Handle("/", http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
 		// Assume anything with a file extension in the name is a static asset.
 		extension := filepath.Ext(req.URL.Path)
