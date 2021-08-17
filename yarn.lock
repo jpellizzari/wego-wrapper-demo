@@ -953,10 +953,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@weaveworks/weave-gitops@0.0.2":
-  version "0.0.2"
-  resolved "https://npm.pkg.github.com/download/@weaveworks/weave-gitops/0.0.2/219a2442cdd5fa6786f5946589e6ba246ac234b60d87a05219c7db98deefdebd#d9e60aa7286e8931532f3590d43a89f0208a6ae7"
-  integrity sha512-ywY76uWRDJ8h2n30pW6BsgAX47iq/6EVCNjHLPQM/zhBBW1uC37Y77AAyMOnKWF640HoJVxDi976t9eO9LwYdA==
+"@weaveworks/weave-gitops@0.0.4":
+  version "0.0.4"
+  resolved "https://npm.pkg.github.com/download/@weaveworks/weave-gitops/0.0.4/fc8d34755955e02e2004edab9e4dd88f22aaf46b933498f048f0abb256f87644#036ece9f3da0a5c511494cf7db54926bcc7a2aef"
+  integrity sha512-cBCzwGp47a56NIKVN5A2Rgxwl4B8weg0Z+8bxLdX2syMbbZhWHqjtdba+2C+d7k5v3v4CED2M/jOYJHAvFzZlg==
   dependencies:
     "@material-ui/core" "^4.11.4"
     "@material-ui/icons" "^4.11.2"
