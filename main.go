@@ -19,7 +19,12 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	handler, err := server.NewAppsHTTPHandler(ctx)
+	cfg, err := server.DefaultConfig()
+	if err != nil {
+		panic(err)
+	}
+
+	handler, err := server.NewApplicationsHandler(ctx, cfg)
 	if err != nil {
 		panic(err)
 	}

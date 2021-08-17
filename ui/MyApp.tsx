@@ -1,3 +1,10 @@
+import {
+  AppContextProvider,
+  ApplicationDetail,
+  Applications,
+  applicationsClient,
+  theme,
+} from "@weaveworks/weave-gitops";
 import * as React from "react";
 import {
   BrowserRouter as Router,
@@ -6,14 +13,6 @@ import {
   Switch,
 } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import {
-  AppContextProvider,
-  ApplicationDetail,
-  Applications,
-  applicationsClient,
-  theme,
-  Timestamp,
-} from "weave-gitops";
 
 const APPS_ROUTE = "/my_custom_applications_route";
 const APP_DETAIL_ROTUE = "/my_special_application_detail_route";
@@ -40,10 +39,6 @@ export default function App() {
       My app
       <ThemeProvider theme={theme}>
         <h3>My custom App!!</h3>
-        <div>
-          {/* Demonstrates using a component outside of the AppContextProvider tree */}
-          <Timestamp time={new Date().toISOString()} />
-        </div>
         <div>
           <Router>
             <AppContextProvider

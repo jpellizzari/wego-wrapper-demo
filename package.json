@@ -13,6 +13,17 @@
     "react-is": "16.8.0",
     "react-router-dom": "^5.2.0",
     "styled-components": "^5.3.0",
-    "weave-gitops": "file:../weave-gitops"
-  }
+    "@weaveworks/weave-gitops": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpellizzari/wego-wrapper-demo.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jpellizzari/wego-wrapper-demo/issues"
+  },
+  "homepage": "https://github.com/jpellizzari/wego-wrapper-demo#readme",
+  "description": ""
 }
